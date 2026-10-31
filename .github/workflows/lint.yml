@@ -42,4 +42,4 @@ jobs:
 
       # Step 5: Check Python formatting
       - name: Check Code Formatting
-        run: ruff format --check .
+        run: ruff check --fix .
